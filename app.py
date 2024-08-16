@@ -13,11 +13,11 @@ from oauth2client.service_account import ServiceAccountCredentials
 
 class DataManager:
     def __init__(self):
-        self.sales = pd.read_csv('Biscoito_doce_Recheado.csv')  # Carregar a base de dados padrão
+        self.sales = pd.read_csv('achocolatado_recrut_15_08 - data.csv')  # Carregar a base de dados padrão
 
     def update_data(self, selected_base):
-        if selected_base == 'Biscoito Doce Recheado':
-            self.sales = pd.read_csv('Biscoito_doce_Recheado.csv')
+        if selected_base == 'Achocolatado-15/08':
+            self.sales = pd.read_csv('achocolatado_recrut_15_08 - data.csv')
         elif selected_base == 'Wafer':
             self.sales = pd.read_csv('Wafer.csv')
 
