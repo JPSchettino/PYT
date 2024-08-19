@@ -18,8 +18,8 @@ class DataManager:
     def update_data(self, selected_base):
         if selected_base == 'Achocolatado-15/08':
             self.sales = pd.read_csv('achocolatado_recrut_15_08 - data.csv')
-        elif selected_base == 'Wafer':
-            self.sales = pd.read_csv('Wafer.csv')
+        elif selected_base == 'Achocolatado-19/08':
+            self.sales = pd.read_csv('achocolatado_recrut_19_08 - data.csv')
 
     def get_data(self):
         return self.sales

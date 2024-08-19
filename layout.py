@@ -30,8 +30,9 @@ def recrutamento_layout(faixa_etaria_options, se_declara_options, classe_eco_ser
                 dcc.Dropdown(
                     id='base_de_dados',
                     options=[
-                        {'label': 'Achocolatado-15/08', 'value': 'Achocolatado-15/08'},
-                        {'label': 'Achocolatado-16/08', 'value': 'Achocolatado-16/08'}
+                        {'label': 'Achocolatado-19/08', 'value': 'Achocolatado-19/08'},
+                        {'label': 'Achocolatado-16/08', 'value': 'Achocolatado-16/08'},
+                        {'label': 'Achocolatado-15/08', 'value': 'Achocolatado-15/08'}
                     ],
                     value="Achocolatado-15/08",
                     className='dropdown-2'
